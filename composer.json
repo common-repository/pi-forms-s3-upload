@@ -1,0 +1,17 @@
+{
+    "name": "piboutique/gravityforms-s3-uploads",
+    "description": "Stores uploaded images in Amazon AWS S3 bucket provided.",
+    "autoload": {
+        "psr-4": {
+            "Piboutique\\GravityS3Image\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Piboutique Software LLC"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "^3.301.2"
+    }
+}
